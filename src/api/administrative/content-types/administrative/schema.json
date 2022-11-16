@@ -1,0 +1,33 @@
+{
+  "kind": "collectionType",
+  "collectionName": "administratives",
+  "info": {
+    "singularName": "administrative",
+    "pluralName": "administratives",
+    "displayName": "Administrative",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "aNombre": {
+      "type": "string",
+      "required": true
+    },
+    "aCelular": {
+      "type": "biginteger"
+    },
+    "aCorreo": {
+      "type": "email",
+      "required": true
+    },
+    "sedeID": {
+      "type": "relation",
+      "relation": "manyToOne",
+      "target": "api::sede.sede",
+      "inversedBy": "administratives"
+    }
+  }
+}

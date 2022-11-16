@@ -1,0 +1,50 @@
+{
+  "kind": "collectionType",
+  "collectionName": "programs",
+  "info": {
+    "singularName": "program",
+    "pluralName": "programs",
+    "displayName": "Program",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "pNombre": {
+      "type": "string",
+      "required": true
+    },
+    "pModalidad": {
+      "type": "enumeration",
+      "enum": [
+        "Presencial",
+        "Virtual"
+      ],
+      "default": "Presencial",
+      "required": true
+    },
+    "pCreditosTotales": {
+      "type": "integer"
+    },
+    "pIDDepartment": {
+      "type": "relation",
+      "relation": "manyToOne",
+      "target": "api::department.department",
+      "inversedBy": "programs"
+    },
+    "courses": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::course.course",
+      "mappedBy": "program"
+    },
+    "students": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::student.student",
+      "mappedBy": "eIDProgram"
+    }
+  }
+}

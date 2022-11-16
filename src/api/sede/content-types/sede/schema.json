@@ -1,0 +1,52 @@
+{
+  "kind": "collectionType",
+  "collectionName": "sedes",
+  "info": {
+    "singularName": "sede",
+    "pluralName": "sedes",
+    "displayName": "Sede",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "sNombre": {
+      "type": "string",
+      "required": true
+    },
+    "sDepartamento": {
+      "type": "string",
+      "required": true
+    },
+    "sCiudad": {
+      "type": "string",
+      "required": true
+    },
+    "contratos": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::contract.contract",
+      "mappedBy": "coIDSede"
+    },
+    "administratives": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::administrative.administrative",
+      "mappedBy": "sedeID"
+    },
+    "departments": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::department.department",
+      "mappedBy": "dIDSede"
+    },
+    "teachers": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::teacher.teacher",
+      "mappedBy": "tIDSede"
+    }
+  }
+}

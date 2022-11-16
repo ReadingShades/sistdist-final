@@ -1,0 +1,40 @@
+{
+  "kind": "collectionType",
+  "collectionName": "departments",
+  "info": {
+    "singularName": "department",
+    "pluralName": "departments",
+    "displayName": "Department",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "dNombre": {
+      "type": "string",
+      "required": true,
+      "unique": true
+    },
+    "dCorreo": {
+      "type": "email",
+      "required": true
+    },
+    "dContacto": {
+      "type": "biginteger"
+    },
+    "dIDSede": {
+      "type": "relation",
+      "relation": "manyToOne",
+      "target": "api::sede.sede",
+      "inversedBy": "departments"
+    },
+    "programs": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::program.program",
+      "mappedBy": "pIDDepartment"
+    }
+  }
+}

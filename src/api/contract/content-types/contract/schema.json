@@ -1,0 +1,37 @@
+{
+  "kind": "collectionType",
+  "collectionName": "contracts",
+  "info": {
+    "singularName": "contract",
+    "pluralName": "contracts",
+    "displayName": "Contract"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "coSalario": {
+      "type": "decimal"
+    },
+    "Vigencia": {
+      "type": "string"
+    },
+    "coTipoJornada": {
+      "type": "enumeration",
+      "enum": [
+        "Tiempo Completo",
+        "Medio Tiempo",
+        "Hora Cátedra"
+      ],
+      "required": true,
+      "default": "Tiempo Completo"
+    },
+    "coIDSede": {
+      "type": "relation",
+      "relation": "manyToOne",
+      "target": "api::sede.sede",
+      "inversedBy": "contratos"
+    }
+  }
+}

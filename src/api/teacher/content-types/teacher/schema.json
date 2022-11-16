@@ -1,0 +1,48 @@
+{
+  "kind": "collectionType",
+  "collectionName": "teachers",
+  "info": {
+    "singularName": "teacher",
+    "pluralName": "teachers",
+    "displayName": "Teacher"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "tNombre": {
+      "type": "string",
+      "required": true
+    },
+    "tCelular": {
+      "type": "biginteger",
+      "required": true
+    },
+    "tCorreo": {
+      "type": "email",
+      "required": true
+    },
+    "tModalidad": {
+      "type": "enumeration",
+      "enum": [
+        "Presencial",
+        "Virtual"
+      ],
+      "default": "Presencial",
+      "required": true
+    },
+    "tIDSede": {
+      "type": "relation",
+      "relation": "manyToOne",
+      "target": "api::sede.sede",
+      "inversedBy": "teachers"
+    },
+    "courses": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::course.course",
+      "mappedBy": "teacher"
+    }
+  }
+}
