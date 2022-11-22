@@ -32,6 +32,44 @@
       "relation": "manyToMany",
       "target": "api::course.course",
       "inversedBy": "students"
+    },
+    "eApellido": {
+      "type": "string"
+    },
+    "eFechaNacimiento": {
+      "type": "date"
+    },
+    "eDireccion": {
+      "type": "string"
+    },
+    "eTipodocumento": {
+      "type": "enumeration",
+      "enum": [
+        "Cedula de Ciudadania",
+        "Tarjeta de Identidad",
+        "Tarjeta Extranjera"
+      ],
+      "default": "Cedula de Ciudadania",
+      "required": true
+    },
+    "eGenero": {
+      "type": "enumeration",
+      "enum": [
+        "Masculino",
+        "Femenino",
+        "NB"
+      ],
+      "required": true
+    },
+    "eEstadoCivil": {
+      "type": "enumeration",
+      "enum": [
+        "Soltero(a)",
+        "Casado(a)"
+      ]
+    },
+    "eIdentificacion": {
+      "type": "biginteger"
     }
   }
 }

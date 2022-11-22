@@ -1,3 +1,5 @@
+// path: /srv/strapi/mystrapiapp/config/database.js
+
 module.exports = ({ env }) => ({
   connection: {
     client: 'mysql',
