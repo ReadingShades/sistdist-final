@@ -7,9 +7,12 @@
     "develop": "strapi develop",
     "start": "strapi start",
     "build": "strapi build",
-    "strapi": "strapi"
+    "strapi": "strapi",
+    "deploy": "strapi start"
   },
   "dependencies": {
+    "@chartbrew/plugin-strapi": "^0.3.2",
+    "@retikolo/drag-drop-content-types": "^1.2.0",
     "@strapi/plugin-documentation": "4.5.0",
     "@strapi/plugin-i18n": "4.5.0",
     "@strapi/plugin-users-permissions": "4.5.0",

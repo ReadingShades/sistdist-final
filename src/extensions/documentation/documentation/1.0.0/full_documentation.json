@@ -14,7 +14,7 @@
       "name": "Apache 2.0",
       "url": "https://www.apache.org/licenses/LICENSE-2.0.html"
     },
-    "x-generation-date": "2022-11-16T13:35:51.260Z"
+    "x-generation-date": "2022-11-22T13:34:41.557Z"
   },
   "x-strapi-config": {
     "path": "/documentation",
@@ -928,6 +928,44 @@
                                                                                         }
                                                                                       }
                                                                                     }
+                                                                                  },
+                                                                                  "eApellido": {
+                                                                                    "type": "string"
+                                                                                  },
+                                                                                  "eFechaNacimiento": {
+                                                                                    "type": "string",
+                                                                                    "format": "date"
+                                                                                  },
+                                                                                  "eDireccion": {
+                                                                                    "type": "string"
+                                                                                  },
+                                                                                  "eTipodocumento": {
+                                                                                    "type": "string",
+                                                                                    "enum": [
+                                                                                      "Cedula de Ciudadania",
+                                                                                      "Tarjeta de Identidad",
+                                                                                      "Tarjeta Extranjera"
+                                                                                    ]
+                                                                                  },
+                                                                                  "eGenero": {
+                                                                                    "type": "string",
+                                                                                    "enum": [
+                                                                                      "Masculino",
+                                                                                      "Femenino",
+                                                                                      "NB"
+                                                                                    ]
+                                                                                  },
+                                                                                  "eEstadoCivil": {
+                                                                                    "type": "string",
+                                                                                    "enum": [
+                                                                                      "Soltero(a)",
+                                                                                      "Casado(a)"
+                                                                                    ]
+                                                                                  },
+                                                                                  "eIdentificacion": {
+                                                                                    "type": "string",
+                                                                                    "pattern": "^\\d*$",
+                                                                                    "example": "123456789"
                                                                                   },
                                                                                   "createdAt": {
                                                                                     "type": "string",
@@ -2084,6 +2122,44 @@
                                                                                         }
                                                                                       }
                                                                                     }
+                                                                                  },
+                                                                                  "eApellido": {
+                                                                                    "type": "string"
+                                                                                  },
+                                                                                  "eFechaNacimiento": {
+                                                                                    "type": "string",
+                                                                                    "format": "date"
+                                                                                  },
+                                                                                  "eDireccion": {
+                                                                                    "type": "string"
+                                                                                  },
+                                                                                  "eTipodocumento": {
+                                                                                    "type": "string",
+                                                                                    "enum": [
+                                                                                      "Cedula de Ciudadania",
+                                                                                      "Tarjeta de Identidad",
+                                                                                      "Tarjeta Extranjera"
+                                                                                    ]
+                                                                                  },
+                                                                                  "eGenero": {
+                                                                                    "type": "string",
+                                                                                    "enum": [
+                                                                                      "Masculino",
+                                                                                      "Femenino",
+                                                                                      "NB"
+                                                                                    ]
+                                                                                  },
+                                                                                  "eEstadoCivil": {
+                                                                                    "type": "string",
+                                                                                    "enum": [
+                                                                                      "Soltero(a)",
+                                                                                      "Casado(a)"
+                                                                                    ]
+                                                                                  },
+                                                                                  "eIdentificacion": {
+                                                                                    "type": "string",
+                                                                                    "pattern": "^\\d*$",
+                                                                                    "example": "123456789"
                                                                                   },
                                                                                   "createdAt": {
                                                                                     "type": "string",
@@ -3274,6 +3350,44 @@
                                                                                       }
                                                                                     }
                                                                                   },
+                                                                                  "eApellido": {
+                                                                                    "type": "string"
+                                                                                  },
+                                                                                  "eFechaNacimiento": {
+                                                                                    "type": "string",
+                                                                                    "format": "date"
+                                                                                  },
+                                                                                  "eDireccion": {
+                                                                                    "type": "string"
+                                                                                  },
+                                                                                  "eTipodocumento": {
+                                                                                    "type": "string",
+                                                                                    "enum": [
+                                                                                      "Cedula de Ciudadania",
+                                                                                      "Tarjeta de Identidad",
+                                                                                      "Tarjeta Extranjera"
+                                                                                    ]
+                                                                                  },
+                                                                                  "eGenero": {
+                                                                                    "type": "string",
+                                                                                    "enum": [
+                                                                                      "Masculino",
+                                                                                      "Femenino",
+                                                                                      "NB"
+                                                                                    ]
+                                                                                  },
+                                                                                  "eEstadoCivil": {
+                                                                                    "type": "string",
+                                                                                    "enum": [
+                                                                                      "Soltero(a)",
+                                                                                      "Casado(a)"
+                                                                                    ]
+                                                                                  },
+                                                                                  "eIdentificacion": {
+                                                                                    "type": "string",
+                                                                                    "pattern": "^\\d*$",
+                                                                                    "example": "123456789"
+                                                                                  },
                                                                                   "createdAt": {
                                                                                     "type": "string",
                                                                                     "format": "date-time"
@@ -4429,6 +4543,44 @@
                                                                                         }
                                                                                       }
                                                                                     }
+                                                                                  },
+                                                                                  "eApellido": {
+                                                                                    "type": "string"
+                                                                                  },
+                                                                                  "eFechaNacimiento": {
+                                                                                    "type": "string",
+                                                                                    "format": "date"
+                                                                                  },
+                                                                                  "eDireccion": {
+                                                                                    "type": "string"
+                                                                                  },
+                                                                                  "eTipodocumento": {
+                                                                                    "type": "string",
+                                                                                    "enum": [
+                                                                                      "Cedula de Ciudadania",
+                                                                                      "Tarjeta de Identidad",
+                                                                                      "Tarjeta Extranjera"
+                                                                                    ]
+                                                                                  },
+                                                                                  "eGenero": {
+                                                                                    "type": "string",
+                                                                                    "enum": [
+                                                                                      "Masculino",
+                                                                                      "Femenino",
+                                                                                      "NB"
+                                                                                    ]
+                                                                                  },
+                                                                                  "eEstadoCivil": {
+                                                                                    "type": "string",
+                                                                                    "enum": [
+                                                                                      "Soltero(a)",
+                                                                                      "Casado(a)"
+                                                                                    ]
+                                                                                  },
+                                                                                  "eIdentificacion": {
+                                                                                    "type": "string",
+                                                                                    "pattern": "^\\d*$",
+                                                                                    "example": "123456789"
                                                                                   },
                                                                                   "createdAt": {
                                                                                     "type": "string",
@@ -5641,6 +5793,44 @@
                                                                                       }
                                                                                     }
                                                                                   },
+                                                                                  "eApellido": {
+                                                                                    "type": "string"
+                                                                                  },
+                                                                                  "eFechaNacimiento": {
+                                                                                    "type": "string",
+                                                                                    "format": "date"
+                                                                                  },
+                                                                                  "eDireccion": {
+                                                                                    "type": "string"
+                                                                                  },
+                                                                                  "eTipodocumento": {
+                                                                                    "type": "string",
+                                                                                    "enum": [
+                                                                                      "Cedula de Ciudadania",
+                                                                                      "Tarjeta de Identidad",
+                                                                                      "Tarjeta Extranjera"
+                                                                                    ]
+                                                                                  },
+                                                                                  "eGenero": {
+                                                                                    "type": "string",
+                                                                                    "enum": [
+                                                                                      "Masculino",
+                                                                                      "Femenino",
+                                                                                      "NB"
+                                                                                    ]
+                                                                                  },
+                                                                                  "eEstadoCivil": {
+                                                                                    "type": "string",
+                                                                                    "enum": [
+                                                                                      "Soltero(a)",
+                                                                                      "Casado(a)"
+                                                                                    ]
+                                                                                  },
+                                                                                  "eIdentificacion": {
+                                                                                    "type": "string",
+                                                                                    "pattern": "^\\d*$",
+                                                                                    "example": "123456789"
+                                                                                  },
                                                                                   "createdAt": {
                                                                                     "type": "string",
                                                                                     "format": "date-time"
@@ -6799,6 +6989,44 @@
                                                                                         }
                                                                                       }
                                                                                     }
+                                                                                  },
+                                                                                  "eApellido": {
+                                                                                    "type": "string"
+                                                                                  },
+                                                                                  "eFechaNacimiento": {
+                                                                                    "type": "string",
+                                                                                    "format": "date"
+                                                                                  },
+                                                                                  "eDireccion": {
+                                                                                    "type": "string"
+                                                                                  },
+                                                                                  "eTipodocumento": {
+                                                                                    "type": "string",
+                                                                                    "enum": [
+                                                                                      "Cedula de Ciudadania",
+                                                                                      "Tarjeta de Identidad",
+                                                                                      "Tarjeta Extranjera"
+                                                                                    ]
+                                                                                  },
+                                                                                  "eGenero": {
+                                                                                    "type": "string",
+                                                                                    "enum": [
+                                                                                      "Masculino",
+                                                                                      "Femenino",
+                                                                                      "NB"
+                                                                                    ]
+                                                                                  },
+                                                                                  "eEstadoCivil": {
+                                                                                    "type": "string",
+                                                                                    "enum": [
+                                                                                      "Soltero(a)",
+                                                                                      "Casado(a)"
+                                                                                    ]
+                                                                                  },
+                                                                                  "eIdentificacion": {
+                                                                                    "type": "string",
+                                                                                    "pattern": "^\\d*$",
+                                                                                    "example": "123456789"
                                                                                   },
                                                                                   "createdAt": {
                                                                                     "type": "string",
@@ -7992,6 +8220,44 @@
                                                                                       }
                                                                                     }
                                                                                   },
+                                                                                  "eApellido": {
+                                                                                    "type": "string"
+                                                                                  },
+                                                                                  "eFechaNacimiento": {
+                                                                                    "type": "string",
+                                                                                    "format": "date"
+                                                                                  },
+                                                                                  "eDireccion": {
+                                                                                    "type": "string"
+                                                                                  },
+                                                                                  "eTipodocumento": {
+                                                                                    "type": "string",
+                                                                                    "enum": [
+                                                                                      "Cedula de Ciudadania",
+                                                                                      "Tarjeta de Identidad",
+                                                                                      "Tarjeta Extranjera"
+                                                                                    ]
+                                                                                  },
+                                                                                  "eGenero": {
+                                                                                    "type": "string",
+                                                                                    "enum": [
+                                                                                      "Masculino",
+                                                                                      "Femenino",
+                                                                                      "NB"
+                                                                                    ]
+                                                                                  },
+                                                                                  "eEstadoCivil": {
+                                                                                    "type": "string",
+                                                                                    "enum": [
+                                                                                      "Soltero(a)",
+                                                                                      "Casado(a)"
+                                                                                    ]
+                                                                                  },
+                                                                                  "eIdentificacion": {
+                                                                                    "type": "string",
+                                                                                    "pattern": "^\\d*$",
+                                                                                    "example": "123456789"
+                                                                                  },
                                                                                   "createdAt": {
                                                                                     "type": "string",
                                                                                     "format": "date-time"
@@ -9150,6 +9416,44 @@
                                                                                         }
                                                                                       }
                                                                                     }
+                                                                                  },
+                                                                                  "eApellido": {
+                                                                                    "type": "string"
+                                                                                  },
+                                                                                  "eFechaNacimiento": {
+                                                                                    "type": "string",
+                                                                                    "format": "date"
+                                                                                  },
+                                                                                  "eDireccion": {
+                                                                                    "type": "string"
+                                                                                  },
+                                                                                  "eTipodocumento": {
+                                                                                    "type": "string",
+                                                                                    "enum": [
+                                                                                      "Cedula de Ciudadania",
+                                                                                      "Tarjeta de Identidad",
+                                                                                      "Tarjeta Extranjera"
+                                                                                    ]
+                                                                                  },
+                                                                                  "eGenero": {
+                                                                                    "type": "string",
+                                                                                    "enum": [
+                                                                                      "Masculino",
+                                                                                      "Femenino",
+                                                                                      "NB"
+                                                                                    ]
+                                                                                  },
+                                                                                  "eEstadoCivil": {
+                                                                                    "type": "string",
+                                                                                    "enum": [
+                                                                                      "Soltero(a)",
+                                                                                      "Casado(a)"
+                                                                                    ]
+                                                                                  },
+                                                                                  "eIdentificacion": {
+                                                                                    "type": "string",
+                                                                                    "pattern": "^\\d*$",
+                                                                                    "example": "123456789"
                                                                                   },
                                                                                   "createdAt": {
                                                                                     "type": "string",
@@ -10312,6 +10616,44 @@
                                                                                                   }
                                                                                                 }
                                                                                               }
+                                                                                            },
+                                                                                            "eApellido": {
+                                                                                              "type": "string"
+                                                                                            },
+                                                                                            "eFechaNacimiento": {
+                                                                                              "type": "string",
+                                                                                              "format": "date"
+                                                                                            },
+                                                                                            "eDireccion": {
+                                                                                              "type": "string"
+                                                                                            },
+                                                                                            "eTipodocumento": {
+                                                                                              "type": "string",
+                                                                                              "enum": [
+                                                                                                "Cedula de Ciudadania",
+                                                                                                "Tarjeta de Identidad",
+                                                                                                "Tarjeta Extranjera"
+                                                                                              ]
+                                                                                            },
+                                                                                            "eGenero": {
+                                                                                              "type": "string",
+                                                                                              "enum": [
+                                                                                                "Masculino",
+                                                                                                "Femenino",
+                                                                                                "NB"
+                                                                                              ]
+                                                                                            },
+                                                                                            "eEstadoCivil": {
+                                                                                              "type": "string",
+                                                                                              "enum": [
+                                                                                                "Soltero(a)",
+                                                                                                "Casado(a)"
+                                                                                              ]
+                                                                                            },
+                                                                                            "eIdentificacion": {
+                                                                                              "type": "string",
+                                                                                              "pattern": "^\\d*$",
+                                                                                              "example": "123456789"
                                                                                             },
                                                                                             "createdAt": {
                                                                                               "type": "string",
@@ -11506,6 +11848,44 @@
                                                                                                   }
                                                                                                 }
                                                                                               }
+                                                                                            },
+                                                                                            "eApellido": {
+                                                                                              "type": "string"
+                                                                                            },
+                                                                                            "eFechaNacimiento": {
+                                                                                              "type": "string",
+                                                                                              "format": "date"
+                                                                                            },
+                                                                                            "eDireccion": {
+                                                                                              "type": "string"
+                                                                                            },
+                                                                                            "eTipodocumento": {
+                                                                                              "type": "string",
+                                                                                              "enum": [
+                                                                                                "Cedula de Ciudadania",
+                                                                                                "Tarjeta de Identidad",
+                                                                                                "Tarjeta Extranjera"
+                                                                                              ]
+                                                                                            },
+                                                                                            "eGenero": {
+                                                                                              "type": "string",
+                                                                                              "enum": [
+                                                                                                "Masculino",
+                                                                                                "Femenino",
+                                                                                                "NB"
+                                                                                              ]
+                                                                                            },
+                                                                                            "eEstadoCivil": {
+                                                                                              "type": "string",
+                                                                                              "enum": [
+                                                                                                "Soltero(a)",
+                                                                                                "Casado(a)"
+                                                                                              ]
+                                                                                            },
+                                                                                            "eIdentificacion": {
+                                                                                              "type": "string",
+                                                                                              "pattern": "^\\d*$",
+                                                                                              "example": "123456789"
                                                                                             },
                                                                                             "createdAt": {
                                                                                               "type": "string",
@@ -12734,6 +13114,44 @@
                                                                                                 }
                                                                                               }
                                                                                             },
+                                                                                            "eApellido": {
+                                                                                              "type": "string"
+                                                                                            },
+                                                                                            "eFechaNacimiento": {
+                                                                                              "type": "string",
+                                                                                              "format": "date"
+                                                                                            },
+                                                                                            "eDireccion": {
+                                                                                              "type": "string"
+                                                                                            },
+                                                                                            "eTipodocumento": {
+                                                                                              "type": "string",
+                                                                                              "enum": [
+                                                                                                "Cedula de Ciudadania",
+                                                                                                "Tarjeta de Identidad",
+                                                                                                "Tarjeta Extranjera"
+                                                                                              ]
+                                                                                            },
+                                                                                            "eGenero": {
+                                                                                              "type": "string",
+                                                                                              "enum": [
+                                                                                                "Masculino",
+                                                                                                "Femenino",
+                                                                                                "NB"
+                                                                                              ]
+                                                                                            },
+                                                                                            "eEstadoCivil": {
+                                                                                              "type": "string",
+                                                                                              "enum": [
+                                                                                                "Soltero(a)",
+                                                                                                "Casado(a)"
+                                                                                              ]
+                                                                                            },
+                                                                                            "eIdentificacion": {
+                                                                                              "type": "string",
+                                                                                              "pattern": "^\\d*$",
+                                                                                              "example": "123456789"
+                                                                                            },
                                                                                             "createdAt": {
                                                                                               "type": "string",
                                                                                               "format": "date-time"
@@ -13927,6 +14345,44 @@
                                                                                                   }
                                                                                                 }
                                                                                               }
+                                                                                            },
+                                                                                            "eApellido": {
+                                                                                              "type": "string"
+                                                                                            },
+                                                                                            "eFechaNacimiento": {
+                                                                                              "type": "string",
+                                                                                              "format": "date"
+                                                                                            },
+                                                                                            "eDireccion": {
+                                                                                              "type": "string"
+                                                                                            },
+                                                                                            "eTipodocumento": {
+                                                                                              "type": "string",
+                                                                                              "enum": [
+                                                                                                "Cedula de Ciudadania",
+                                                                                                "Tarjeta de Identidad",
+                                                                                                "Tarjeta Extranjera"
+                                                                                              ]
+                                                                                            },
+                                                                                            "eGenero": {
+                                                                                              "type": "string",
+                                                                                              "enum": [
+                                                                                                "Masculino",
+                                                                                                "Femenino",
+                                                                                                "NB"
+                                                                                              ]
+                                                                                            },
+                                                                                            "eEstadoCivil": {
+                                                                                              "type": "string",
+                                                                                              "enum": [
+                                                                                                "Soltero(a)",
+                                                                                                "Casado(a)"
+                                                                                              ]
+                                                                                            },
+                                                                                            "eIdentificacion": {
+                                                                                              "type": "string",
+                                                                                              "pattern": "^\\d*$",
+                                                                                              "example": "123456789"
                                                                                             },
                                                                                             "createdAt": {
                                                                                               "type": "string",
@@ -15256,6 +15712,44 @@
                                                                                       }
                                                                                     }
                                                                                   },
+                                                                                  "eApellido": {
+                                                                                    "type": "string"
+                                                                                  },
+                                                                                  "eFechaNacimiento": {
+                                                                                    "type": "string",
+                                                                                    "format": "date"
+                                                                                  },
+                                                                                  "eDireccion": {
+                                                                                    "type": "string"
+                                                                                  },
+                                                                                  "eTipodocumento": {
+                                                                                    "type": "string",
+                                                                                    "enum": [
+                                                                                      "Cedula de Ciudadania",
+                                                                                      "Tarjeta de Identidad",
+                                                                                      "Tarjeta Extranjera"
+                                                                                    ]
+                                                                                  },
+                                                                                  "eGenero": {
+                                                                                    "type": "string",
+                                                                                    "enum": [
+                                                                                      "Masculino",
+                                                                                      "Femenino",
+                                                                                      "NB"
+                                                                                    ]
+                                                                                  },
+                                                                                  "eEstadoCivil": {
+                                                                                    "type": "string",
+                                                                                    "enum": [
+                                                                                      "Soltero(a)",
+                                                                                      "Casado(a)"
+                                                                                    ]
+                                                                                  },
+                                                                                  "eIdentificacion": {
+                                                                                    "type": "string",
+                                                                                    "pattern": "^\\d*$",
+                                                                                    "example": "123456789"
+                                                                                  },
                                                                                   "createdAt": {
                                                                                     "type": "string",
                                                                                     "format": "date-time"
@@ -16431,6 +16925,44 @@
                                                                                         }
                                                                                       }
                                                                                     }
+                                                                                  },
+                                                                                  "eApellido": {
+                                                                                    "type": "string"
+                                                                                  },
+                                                                                  "eFechaNacimiento": {
+                                                                                    "type": "string",
+                                                                                    "format": "date"
+                                                                                  },
+                                                                                  "eDireccion": {
+                                                                                    "type": "string"
+                                                                                  },
+                                                                                  "eTipodocumento": {
+                                                                                    "type": "string",
+                                                                                    "enum": [
+                                                                                      "Cedula de Ciudadania",
+                                                                                      "Tarjeta de Identidad",
+                                                                                      "Tarjeta Extranjera"
+                                                                                    ]
+                                                                                  },
+                                                                                  "eGenero": {
+                                                                                    "type": "string",
+                                                                                    "enum": [
+                                                                                      "Masculino",
+                                                                                      "Femenino",
+                                                                                      "NB"
+                                                                                    ]
+                                                                                  },
+                                                                                  "eEstadoCivil": {
+                                                                                    "type": "string",
+                                                                                    "enum": [
+                                                                                      "Soltero(a)",
+                                                                                      "Casado(a)"
+                                                                                    ]
+                                                                                  },
+                                                                                  "eIdentificacion": {
+                                                                                    "type": "string",
+                                                                                    "pattern": "^\\d*$",
+                                                                                    "example": "123456789"
                                                                                   },
                                                                                   "createdAt": {
                                                                                     "type": "string",
@@ -17641,6 +18173,44 @@
                                                                                       }
                                                                                     }
                                                                                   },
+                                                                                  "eApellido": {
+                                                                                    "type": "string"
+                                                                                  },
+                                                                                  "eFechaNacimiento": {
+                                                                                    "type": "string",
+                                                                                    "format": "date"
+                                                                                  },
+                                                                                  "eDireccion": {
+                                                                                    "type": "string"
+                                                                                  },
+                                                                                  "eTipodocumento": {
+                                                                                    "type": "string",
+                                                                                    "enum": [
+                                                                                      "Cedula de Ciudadania",
+                                                                                      "Tarjeta de Identidad",
+                                                                                      "Tarjeta Extranjera"
+                                                                                    ]
+                                                                                  },
+                                                                                  "eGenero": {
+                                                                                    "type": "string",
+                                                                                    "enum": [
+                                                                                      "Masculino",
+                                                                                      "Femenino",
+                                                                                      "NB"
+                                                                                    ]
+                                                                                  },
+                                                                                  "eEstadoCivil": {
+                                                                                    "type": "string",
+                                                                                    "enum": [
+                                                                                      "Soltero(a)",
+                                                                                      "Casado(a)"
+                                                                                    ]
+                                                                                  },
+                                                                                  "eIdentificacion": {
+                                                                                    "type": "string",
+                                                                                    "pattern": "^\\d*$",
+                                                                                    "example": "123456789"
+                                                                                  },
                                                                                   "createdAt": {
                                                                                     "type": "string",
                                                                                     "format": "date-time"
@@ -18816,6 +19386,44 @@
                                                                                         }
                                                                                       }
                                                                                     }
+                                                                                  },
+                                                                                  "eApellido": {
+                                                                                    "type": "string"
+                                                                                  },
+                                                                                  "eFechaNacimiento": {
+                                                                                    "type": "string",
+                                                                                    "format": "date"
+                                                                                  },
+                                                                                  "eDireccion": {
+                                                                                    "type": "string"
+                                                                                  },
+                                                                                  "eTipodocumento": {
+                                                                                    "type": "string",
+                                                                                    "enum": [
+                                                                                      "Cedula de Ciudadania",
+                                                                                      "Tarjeta de Identidad",
+                                                                                      "Tarjeta Extranjera"
+                                                                                    ]
+                                                                                  },
+                                                                                  "eGenero": {
+                                                                                    "type": "string",
+                                                                                    "enum": [
+                                                                                      "Masculino",
+                                                                                      "Femenino",
+                                                                                      "NB"
+                                                                                    ]
+                                                                                  },
+                                                                                  "eEstadoCivil": {
+                                                                                    "type": "string",
+                                                                                    "enum": [
+                                                                                      "Soltero(a)",
+                                                                                      "Casado(a)"
+                                                                                    ]
+                                                                                  },
+                                                                                  "eIdentificacion": {
+                                                                                    "type": "string",
+                                                                                    "pattern": "^\\d*$",
+                                                                                    "example": "123456789"
                                                                                   },
                                                                                   "createdAt": {
                                                                                     "type": "string",
@@ -20004,6 +20612,44 @@
                                                                                                   }
                                                                                                 }
                                                                                               }
+                                                                                            },
+                                                                                            "eApellido": {
+                                                                                              "type": "string"
+                                                                                            },
+                                                                                            "eFechaNacimiento": {
+                                                                                              "type": "string",
+                                                                                              "format": "date"
+                                                                                            },
+                                                                                            "eDireccion": {
+                                                                                              "type": "string"
+                                                                                            },
+                                                                                            "eTipodocumento": {
+                                                                                              "type": "string",
+                                                                                              "enum": [
+                                                                                                "Cedula de Ciudadania",
+                                                                                                "Tarjeta de Identidad",
+                                                                                                "Tarjeta Extranjera"
+                                                                                              ]
+                                                                                            },
+                                                                                            "eGenero": {
+                                                                                              "type": "string",
+                                                                                              "enum": [
+                                                                                                "Masculino",
+                                                                                                "Femenino",
+                                                                                                "NB"
+                                                                                              ]
+                                                                                            },
+                                                                                            "eEstadoCivil": {
+                                                                                              "type": "string",
+                                                                                              "enum": [
+                                                                                                "Soltero(a)",
+                                                                                                "Casado(a)"
+                                                                                              ]
+                                                                                            },
+                                                                                            "eIdentificacion": {
+                                                                                              "type": "string",
+                                                                                              "pattern": "^\\d*$",
+                                                                                              "example": "123456789"
                                                                                             },
                                                                                             "createdAt": {
                                                                                               "type": "string",
@@ -21201,6 +21847,44 @@
                                                                                                   }
                                                                                                 }
                                                                                               }
+                                                                                            },
+                                                                                            "eApellido": {
+                                                                                              "type": "string"
+                                                                                            },
+                                                                                            "eFechaNacimiento": {
+                                                                                              "type": "string",
+                                                                                              "format": "date"
+                                                                                            },
+                                                                                            "eDireccion": {
+                                                                                              "type": "string"
+                                                                                            },
+                                                                                            "eTipodocumento": {
+                                                                                              "type": "string",
+                                                                                              "enum": [
+                                                                                                "Cedula de Ciudadania",
+                                                                                                "Tarjeta de Identidad",
+                                                                                                "Tarjeta Extranjera"
+                                                                                              ]
+                                                                                            },
+                                                                                            "eGenero": {
+                                                                                              "type": "string",
+                                                                                              "enum": [
+                                                                                                "Masculino",
+                                                                                                "Femenino",
+                                                                                                "NB"
+                                                                                              ]
+                                                                                            },
+                                                                                            "eEstadoCivil": {
+                                                                                              "type": "string",
+                                                                                              "enum": [
+                                                                                                "Soltero(a)",
+                                                                                                "Casado(a)"
+                                                                                              ]
+                                                                                            },
+                                                                                            "eIdentificacion": {
+                                                                                              "type": "string",
+                                                                                              "pattern": "^\\d*$",
+                                                                                              "example": "123456789"
                                                                                             },
                                                                                             "createdAt": {
                                                                                               "type": "string",
@@ -22432,6 +23116,44 @@
                                                                                                 }
                                                                                               }
                                                                                             },
+                                                                                            "eApellido": {
+                                                                                              "type": "string"
+                                                                                            },
+                                                                                            "eFechaNacimiento": {
+                                                                                              "type": "string",
+                                                                                              "format": "date"
+                                                                                            },
+                                                                                            "eDireccion": {
+                                                                                              "type": "string"
+                                                                                            },
+                                                                                            "eTipodocumento": {
+                                                                                              "type": "string",
+                                                                                              "enum": [
+                                                                                                "Cedula de Ciudadania",
+                                                                                                "Tarjeta de Identidad",
+                                                                                                "Tarjeta Extranjera"
+                                                                                              ]
+                                                                                            },
+                                                                                            "eGenero": {
+                                                                                              "type": "string",
+                                                                                              "enum": [
+                                                                                                "Masculino",
+                                                                                                "Femenino",
+                                                                                                "NB"
+                                                                                              ]
+                                                                                            },
+                                                                                            "eEstadoCivil": {
+                                                                                              "type": "string",
+                                                                                              "enum": [
+                                                                                                "Soltero(a)",
+                                                                                                "Casado(a)"
+                                                                                              ]
+                                                                                            },
+                                                                                            "eIdentificacion": {
+                                                                                              "type": "string",
+                                                                                              "pattern": "^\\d*$",
+                                                                                              "example": "123456789"
+                                                                                            },
                                                                                             "createdAt": {
                                                                                               "type": "string",
                                                                                               "format": "date-time"
@@ -23628,6 +24350,44 @@
                                                                                                   }
                                                                                                 }
                                                                                               }
+                                                                                            },
+                                                                                            "eApellido": {
+                                                                                              "type": "string"
+                                                                                            },
+                                                                                            "eFechaNacimiento": {
+                                                                                              "type": "string",
+                                                                                              "format": "date"
+                                                                                            },
+                                                                                            "eDireccion": {
+                                                                                              "type": "string"
+                                                                                            },
+                                                                                            "eTipodocumento": {
+                                                                                              "type": "string",
+                                                                                              "enum": [
+                                                                                                "Cedula de Ciudadania",
+                                                                                                "Tarjeta de Identidad",
+                                                                                                "Tarjeta Extranjera"
+                                                                                              ]
+                                                                                            },
+                                                                                            "eGenero": {
+                                                                                              "type": "string",
+                                                                                              "enum": [
+                                                                                                "Masculino",
+                                                                                                "Femenino",
+                                                                                                "NB"
+                                                                                              ]
+                                                                                            },
+                                                                                            "eEstadoCivil": {
+                                                                                              "type": "string",
+                                                                                              "enum": [
+                                                                                                "Soltero(a)",
+                                                                                                "Casado(a)"
+                                                                                              ]
+                                                                                            },
+                                                                                            "eIdentificacion": {
+                                                                                              "type": "string",
+                                                                                              "pattern": "^\\d*$",
+                                                                                              "example": "123456789"
                                                                                             },
                                                                                             "createdAt": {
                                                                                               "type": "string",
@@ -24933,6 +25693,44 @@
                                                                                                     }
                                                                                                   }
                                                                                                 },
+                                                                                                "eApellido": {
+                                                                                                  "type": "string"
+                                                                                                },
+                                                                                                "eFechaNacimiento": {
+                                                                                                  "type": "string",
+                                                                                                  "format": "date"
+                                                                                                },
+                                                                                                "eDireccion": {
+                                                                                                  "type": "string"
+                                                                                                },
+                                                                                                "eTipodocumento": {
+                                                                                                  "type": "string",
+                                                                                                  "enum": [
+                                                                                                    "Cedula de Ciudadania",
+                                                                                                    "Tarjeta de Identidad",
+                                                                                                    "Tarjeta Extranjera"
+                                                                                                  ]
+                                                                                                },
+                                                                                                "eGenero": {
+                                                                                                  "type": "string",
+                                                                                                  "enum": [
+                                                                                                    "Masculino",
+                                                                                                    "Femenino",
+                                                                                                    "NB"
+                                                                                                  ]
+                                                                                                },
+                                                                                                "eEstadoCivil": {
+                                                                                                  "type": "string",
+                                                                                                  "enum": [
+                                                                                                    "Soltero(a)",
+                                                                                                    "Casado(a)"
+                                                                                                  ]
+                                                                                                },
+                                                                                                "eIdentificacion": {
+                                                                                                  "type": "string",
+                                                                                                  "pattern": "^\\d*$",
+                                                                                                  "example": "123456789"
+                                                                                                },
                                                                                                 "createdAt": {
                                                                                                   "type": "string",
                                                                                                   "format": "date-time"
@@ -26148,6 +26946,44 @@
                                                                                                       }
                                                                                                     }
                                                                                                   }
+                                                                                                },
+                                                                                                "eApellido": {
+                                                                                                  "type": "string"
+                                                                                                },
+                                                                                                "eFechaNacimiento": {
+                                                                                                  "type": "string",
+                                                                                                  "format": "date"
+                                                                                                },
+                                                                                                "eDireccion": {
+                                                                                                  "type": "string"
+                                                                                                },
+                                                                                                "eTipodocumento": {
+                                                                                                  "type": "string",
+                                                                                                  "enum": [
+                                                                                                    "Cedula de Ciudadania",
+                                                                                                    "Tarjeta de Identidad",
+                                                                                                    "Tarjeta Extranjera"
+                                                                                                  ]
+                                                                                                },
+                                                                                                "eGenero": {
+                                                                                                  "type": "string",
+                                                                                                  "enum": [
+                                                                                                    "Masculino",
+                                                                                                    "Femenino",
+                                                                                                    "NB"
+                                                                                                  ]
+                                                                                                },
+                                                                                                "eEstadoCivil": {
+                                                                                                  "type": "string",
+                                                                                                  "enum": [
+                                                                                                    "Soltero(a)",
+                                                                                                    "Casado(a)"
+                                                                                                  ]
+                                                                                                },
+                                                                                                "eIdentificacion": {
+                                                                                                  "type": "string",
+                                                                                                  "pattern": "^\\d*$",
+                                                                                                  "example": "123456789"
                                                                                                 },
                                                                                                 "createdAt": {
                                                                                                   "type": "string",
@@ -27398,6 +28234,44 @@
                                                                                                     }
                                                                                                   }
                                                                                                 },
+                                                                                                "eApellido": {
+                                                                                                  "type": "string"
+                                                                                                },
+                                                                                                "eFechaNacimiento": {
+                                                                                                  "type": "string",
+                                                                                                  "format": "date"
+                                                                                                },
+                                                                                                "eDireccion": {
+                                                                                                  "type": "string"
+                                                                                                },
+                                                                                                "eTipodocumento": {
+                                                                                                  "type": "string",
+                                                                                                  "enum": [
+                                                                                                    "Cedula de Ciudadania",
+                                                                                                    "Tarjeta de Identidad",
+                                                                                                    "Tarjeta Extranjera"
+                                                                                                  ]
+                                                                                                },
+                                                                                                "eGenero": {
+                                                                                                  "type": "string",
+                                                                                                  "enum": [
+                                                                                                    "Masculino",
+                                                                                                    "Femenino",
+                                                                                                    "NB"
+                                                                                                  ]
+                                                                                                },
+                                                                                                "eEstadoCivil": {
+                                                                                                  "type": "string",
+                                                                                                  "enum": [
+                                                                                                    "Soltero(a)",
+                                                                                                    "Casado(a)"
+                                                                                                  ]
+                                                                                                },
+                                                                                                "eIdentificacion": {
+                                                                                                  "type": "string",
+                                                                                                  "pattern": "^\\d*$",
+                                                                                                  "example": "123456789"
+                                                                                                },
                                                                                                 "createdAt": {
                                                                                                   "type": "string",
                                                                                                   "format": "date-time"
@@ -28614,6 +29488,44 @@
                                                                                                     }
                                                                                                   }
                                                                                                 },
+                                                                                                "eApellido": {
+                                                                                                  "type": "string"
+                                                                                                },
+                                                                                                "eFechaNacimiento": {
+                                                                                                  "type": "string",
+                                                                                                  "format": "date"
+                                                                                                },
+                                                                                                "eDireccion": {
+                                                                                                  "type": "string"
+                                                                                                },
+                                                                                                "eTipodocumento": {
+                                                                                                  "type": "string",
+                                                                                                  "enum": [
+                                                                                                    "Cedula de Ciudadania",
+                                                                                                    "Tarjeta de Identidad",
+                                                                                                    "Tarjeta Extranjera"
+                                                                                                  ]
+                                                                                                },
+                                                                                                "eGenero": {
+                                                                                                  "type": "string",
+                                                                                                  "enum": [
+                                                                                                    "Masculino",
+                                                                                                    "Femenino",
+                                                                                                    "NB"
+                                                                                                  ]
+                                                                                                },
+                                                                                                "eEstadoCivil": {
+                                                                                                  "type": "string",
+                                                                                                  "enum": [
+                                                                                                    "Soltero(a)",
+                                                                                                    "Casado(a)"
+                                                                                                  ]
+                                                                                                },
+                                                                                                "eIdentificacion": {
+                                                                                                  "type": "string",
+                                                                                                  "pattern": "^\\d*$",
+                                                                                                  "example": "123456789"
+                                                                                                },
                                                                                                 "createdAt": {
                                                                                                   "type": "string",
                                                                                                   "format": "date-time"
@@ -29098,7 +30010,10 @@
         ],
         "properties": {
           "data": {
-            "required": [],
+            "required": [
+              "eTipodocumento",
+              "eGenero"
+            ],
             "type": "object",
             "properties": {
               "eNombre": {
@@ -29137,6 +30052,44 @@
                   ],
                   "example": "string or id"
                 }
+              },
+              "eApellido": {
+                "type": "string"
+              },
+              "eFechaNacimiento": {
+                "type": "string",
+                "format": "date"
+              },
+              "eDireccion": {
+                "type": "string"
+              },
+              "eTipodocumento": {
+                "type": "string",
+                "enum": [
+                  "Cedula de Ciudadania",
+                  "Tarjeta de Identidad",
+                  "Tarjeta Extranjera"
+                ]
+              },
+              "eGenero": {
+                "type": "string",
+                "enum": [
+                  "Masculino",
+                  "Femenino",
+                  "NB"
+                ]
+              },
+              "eEstadoCivil": {
+                "type": "string",
+                "enum": [
+                  "Soltero(a)",
+                  "Casado(a)"
+                ]
+              },
+              "eIdentificacion": {
+                "type": "string",
+                "pattern": "^\\d*$",
+                "example": "123456789"
               }
             }
           }
@@ -29873,6 +30826,44 @@
                                                                                                 }
                                                                                               }
                                                                                             },
+                                                                                            "eApellido": {
+                                                                                              "type": "string"
+                                                                                            },
+                                                                                            "eFechaNacimiento": {
+                                                                                              "type": "string",
+                                                                                              "format": "date"
+                                                                                            },
+                                                                                            "eDireccion": {
+                                                                                              "type": "string"
+                                                                                            },
+                                                                                            "eTipodocumento": {
+                                                                                              "type": "string",
+                                                                                              "enum": [
+                                                                                                "Cedula de Ciudadania",
+                                                                                                "Tarjeta de Identidad",
+                                                                                                "Tarjeta Extranjera"
+                                                                                              ]
+                                                                                            },
+                                                                                            "eGenero": {
+                                                                                              "type": "string",
+                                                                                              "enum": [
+                                                                                                "Masculino",
+                                                                                                "Femenino",
+                                                                                                "NB"
+                                                                                              ]
+                                                                                            },
+                                                                                            "eEstadoCivil": {
+                                                                                              "type": "string",
+                                                                                              "enum": [
+                                                                                                "Soltero(a)",
+                                                                                                "Casado(a)"
+                                                                                              ]
+                                                                                            },
+                                                                                            "eIdentificacion": {
+                                                                                              "type": "string",
+                                                                                              "pattern": "^\\d*$",
+                                                                                              "example": "123456789"
+                                                                                            },
                                                                                             "createdAt": {
                                                                                               "type": "string",
                                                                                               "format": "date-time"
@@ -30267,6 +31258,44 @@
                     }
                   }
                 }
+              },
+              "eApellido": {
+                "type": "string"
+              },
+              "eFechaNacimiento": {
+                "type": "string",
+                "format": "date"
+              },
+              "eDireccion": {
+                "type": "string"
+              },
+              "eTipodocumento": {
+                "type": "string",
+                "enum": [
+                  "Cedula de Ciudadania",
+                  "Tarjeta de Identidad",
+                  "Tarjeta Extranjera"
+                ]
+              },
+              "eGenero": {
+                "type": "string",
+                "enum": [
+                  "Masculino",
+                  "Femenino",
+                  "NB"
+                ]
+              },
+              "eEstadoCivil": {
+                "type": "string",
+                "enum": [
+                  "Soltero(a)",
+                  "Casado(a)"
+                ]
+              },
+              "eIdentificacion": {
+                "type": "string",
+                "pattern": "^\\d*$",
+                "example": "123456789"
               },
               "createdAt": {
                 "type": "string",
@@ -31049,6 +32078,44 @@
                                                                                                 }
                                                                                               }
                                                                                             },
+                                                                                            "eApellido": {
+                                                                                              "type": "string"
+                                                                                            },
+                                                                                            "eFechaNacimiento": {
+                                                                                              "type": "string",
+                                                                                              "format": "date"
+                                                                                            },
+                                                                                            "eDireccion": {
+                                                                                              "type": "string"
+                                                                                            },
+                                                                                            "eTipodocumento": {
+                                                                                              "type": "string",
+                                                                                              "enum": [
+                                                                                                "Cedula de Ciudadania",
+                                                                                                "Tarjeta de Identidad",
+                                                                                                "Tarjeta Extranjera"
+                                                                                              ]
+                                                                                            },
+                                                                                            "eGenero": {
+                                                                                              "type": "string",
+                                                                                              "enum": [
+                                                                                                "Masculino",
+                                                                                                "Femenino",
+                                                                                                "NB"
+                                                                                              ]
+                                                                                            },
+                                                                                            "eEstadoCivil": {
+                                                                                              "type": "string",
+                                                                                              "enum": [
+                                                                                                "Soltero(a)",
+                                                                                                "Casado(a)"
+                                                                                              ]
+                                                                                            },
+                                                                                            "eIdentificacion": {
+                                                                                              "type": "string",
+                                                                                              "pattern": "^\\d*$",
+                                                                                              "example": "123456789"
+                                                                                            },
                                                                                             "createdAt": {
                                                                                               "type": "string",
                                                                                               "format": "date-time"
@@ -31443,6 +32510,44 @@
                     }
                   }
                 }
+              },
+              "eApellido": {
+                "type": "string"
+              },
+              "eFechaNacimiento": {
+                "type": "string",
+                "format": "date"
+              },
+              "eDireccion": {
+                "type": "string"
+              },
+              "eTipodocumento": {
+                "type": "string",
+                "enum": [
+                  "Cedula de Ciudadania",
+                  "Tarjeta de Identidad",
+                  "Tarjeta Extranjera"
+                ]
+              },
+              "eGenero": {
+                "type": "string",
+                "enum": [
+                  "Masculino",
+                  "Femenino",
+                  "NB"
+                ]
+              },
+              "eEstadoCivil": {
+                "type": "string",
+                "enum": [
+                  "Soltero(a)",
+                  "Casado(a)"
+                ]
+              },
+              "eIdentificacion": {
+                "type": "string",
+                "pattern": "^\\d*$",
+                "example": "123456789"
               },
               "createdAt": {
                 "type": "string",
@@ -32258,6 +33363,44 @@
                                                                                                 }
                                                                                               }
                                                                                             },
+                                                                                            "eApellido": {
+                                                                                              "type": "string"
+                                                                                            },
+                                                                                            "eFechaNacimiento": {
+                                                                                              "type": "string",
+                                                                                              "format": "date"
+                                                                                            },
+                                                                                            "eDireccion": {
+                                                                                              "type": "string"
+                                                                                            },
+                                                                                            "eTipodocumento": {
+                                                                                              "type": "string",
+                                                                                              "enum": [
+                                                                                                "Cedula de Ciudadania",
+                                                                                                "Tarjeta de Identidad",
+                                                                                                "Tarjeta Extranjera"
+                                                                                              ]
+                                                                                            },
+                                                                                            "eGenero": {
+                                                                                              "type": "string",
+                                                                                              "enum": [
+                                                                                                "Masculino",
+                                                                                                "Femenino",
+                                                                                                "NB"
+                                                                                              ]
+                                                                                            },
+                                                                                            "eEstadoCivil": {
+                                                                                              "type": "string",
+                                                                                              "enum": [
+                                                                                                "Soltero(a)",
+                                                                                                "Casado(a)"
+                                                                                              ]
+                                                                                            },
+                                                                                            "eIdentificacion": {
+                                                                                              "type": "string",
+                                                                                              "pattern": "^\\d*$",
+                                                                                              "example": "123456789"
+                                                                                            },
                                                                                             "createdAt": {
                                                                                               "type": "string",
                                                                                               "format": "date-time"
@@ -32652,6 +33795,44 @@
                     }
                   }
                 }
+              },
+              "eApellido": {
+                "type": "string"
+              },
+              "eFechaNacimiento": {
+                "type": "string",
+                "format": "date"
+              },
+              "eDireccion": {
+                "type": "string"
+              },
+              "eTipodocumento": {
+                "type": "string",
+                "enum": [
+                  "Cedula de Ciudadania",
+                  "Tarjeta de Identidad",
+                  "Tarjeta Extranjera"
+                ]
+              },
+              "eGenero": {
+                "type": "string",
+                "enum": [
+                  "Masculino",
+                  "Femenino",
+                  "NB"
+                ]
+              },
+              "eEstadoCivil": {
+                "type": "string",
+                "enum": [
+                  "Soltero(a)",
+                  "Casado(a)"
+                ]
+              },
+              "eIdentificacion": {
+                "type": "string",
+                "pattern": "^\\d*$",
+                "example": "123456789"
               },
               "createdAt": {
                 "type": "string",
@@ -33434,6 +34615,44 @@
                                                                                                 }
                                                                                               }
                                                                                             },
+                                                                                            "eApellido": {
+                                                                                              "type": "string"
+                                                                                            },
+                                                                                            "eFechaNacimiento": {
+                                                                                              "type": "string",
+                                                                                              "format": "date"
+                                                                                            },
+                                                                                            "eDireccion": {
+                                                                                              "type": "string"
+                                                                                            },
+                                                                                            "eTipodocumento": {
+                                                                                              "type": "string",
+                                                                                              "enum": [
+                                                                                                "Cedula de Ciudadania",
+                                                                                                "Tarjeta de Identidad",
+                                                                                                "Tarjeta Extranjera"
+                                                                                              ]
+                                                                                            },
+                                                                                            "eGenero": {
+                                                                                              "type": "string",
+                                                                                              "enum": [
+                                                                                                "Masculino",
+                                                                                                "Femenino",
+                                                                                                "NB"
+                                                                                              ]
+                                                                                            },
+                                                                                            "eEstadoCivil": {
+                                                                                              "type": "string",
+                                                                                              "enum": [
+                                                                                                "Soltero(a)",
+                                                                                                "Casado(a)"
+                                                                                              ]
+                                                                                            },
+                                                                                            "eIdentificacion": {
+                                                                                              "type": "string",
+                                                                                              "pattern": "^\\d*$",
+                                                                                              "example": "123456789"
+                                                                                            },
                                                                                             "createdAt": {
                                                                                               "type": "string",
                                                                                               "format": "date-time"
@@ -33828,6 +35047,44 @@
                     }
                   }
                 }
+              },
+              "eApellido": {
+                "type": "string"
+              },
+              "eFechaNacimiento": {
+                "type": "string",
+                "format": "date"
+              },
+              "eDireccion": {
+                "type": "string"
+              },
+              "eTipodocumento": {
+                "type": "string",
+                "enum": [
+                  "Cedula de Ciudadania",
+                  "Tarjeta de Identidad",
+                  "Tarjeta Extranjera"
+                ]
+              },
+              "eGenero": {
+                "type": "string",
+                "enum": [
+                  "Masculino",
+                  "Femenino",
+                  "NB"
+                ]
+              },
+              "eEstadoCivil": {
+                "type": "string",
+                "enum": [
+                  "Soltero(a)",
+                  "Casado(a)"
+                ]
+              },
+              "eIdentificacion": {
+                "type": "string",
+                "pattern": "^\\d*$",
+                "example": "123456789"
               },
               "createdAt": {
                 "type": "string",
@@ -34760,6 +36017,44 @@
                                                                                         }
                                                                                       }
                                                                                     }
+                                                                                  },
+                                                                                  "eApellido": {
+                                                                                    "type": "string"
+                                                                                  },
+                                                                                  "eFechaNacimiento": {
+                                                                                    "type": "string",
+                                                                                    "format": "date"
+                                                                                  },
+                                                                                  "eDireccion": {
+                                                                                    "type": "string"
+                                                                                  },
+                                                                                  "eTipodocumento": {
+                                                                                    "type": "string",
+                                                                                    "enum": [
+                                                                                      "Cedula de Ciudadania",
+                                                                                      "Tarjeta de Identidad",
+                                                                                      "Tarjeta Extranjera"
+                                                                                    ]
+                                                                                  },
+                                                                                  "eGenero": {
+                                                                                    "type": "string",
+                                                                                    "enum": [
+                                                                                      "Masculino",
+                                                                                      "Femenino",
+                                                                                      "NB"
+                                                                                    ]
+                                                                                  },
+                                                                                  "eEstadoCivil": {
+                                                                                    "type": "string",
+                                                                                    "enum": [
+                                                                                      "Soltero(a)",
+                                                                                      "Casado(a)"
+                                                                                    ]
+                                                                                  },
+                                                                                  "eIdentificacion": {
+                                                                                    "type": "string",
+                                                                                    "pattern": "^\\d*$",
+                                                                                    "example": "123456789"
                                                                                   },
                                                                                   "createdAt": {
                                                                                     "type": "string",
@@ -35943,6 +37238,44 @@
                                                                                         }
                                                                                       }
                                                                                     }
+                                                                                  },
+                                                                                  "eApellido": {
+                                                                                    "type": "string"
+                                                                                  },
+                                                                                  "eFechaNacimiento": {
+                                                                                    "type": "string",
+                                                                                    "format": "date"
+                                                                                  },
+                                                                                  "eDireccion": {
+                                                                                    "type": "string"
+                                                                                  },
+                                                                                  "eTipodocumento": {
+                                                                                    "type": "string",
+                                                                                    "enum": [
+                                                                                      "Cedula de Ciudadania",
+                                                                                      "Tarjeta de Identidad",
+                                                                                      "Tarjeta Extranjera"
+                                                                                    ]
+                                                                                  },
+                                                                                  "eGenero": {
+                                                                                    "type": "string",
+                                                                                    "enum": [
+                                                                                      "Masculino",
+                                                                                      "Femenino",
+                                                                                      "NB"
+                                                                                    ]
+                                                                                  },
+                                                                                  "eEstadoCivil": {
+                                                                                    "type": "string",
+                                                                                    "enum": [
+                                                                                      "Soltero(a)",
+                                                                                      "Casado(a)"
+                                                                                    ]
+                                                                                  },
+                                                                                  "eIdentificacion": {
+                                                                                    "type": "string",
+                                                                                    "pattern": "^\\d*$",
+                                                                                    "example": "123456789"
                                                                                   },
                                                                                   "createdAt": {
                                                                                     "type": "string",
@@ -37160,6 +38493,44 @@
                                                                                       }
                                                                                     }
                                                                                   },
+                                                                                  "eApellido": {
+                                                                                    "type": "string"
+                                                                                  },
+                                                                                  "eFechaNacimiento": {
+                                                                                    "type": "string",
+                                                                                    "format": "date"
+                                                                                  },
+                                                                                  "eDireccion": {
+                                                                                    "type": "string"
+                                                                                  },
+                                                                                  "eTipodocumento": {
+                                                                                    "type": "string",
+                                                                                    "enum": [
+                                                                                      "Cedula de Ciudadania",
+                                                                                      "Tarjeta de Identidad",
+                                                                                      "Tarjeta Extranjera"
+                                                                                    ]
+                                                                                  },
+                                                                                  "eGenero": {
+                                                                                    "type": "string",
+                                                                                    "enum": [
+                                                                                      "Masculino",
+                                                                                      "Femenino",
+                                                                                      "NB"
+                                                                                    ]
+                                                                                  },
+                                                                                  "eEstadoCivil": {
+                                                                                    "type": "string",
+                                                                                    "enum": [
+                                                                                      "Soltero(a)",
+                                                                                      "Casado(a)"
+                                                                                    ]
+                                                                                  },
+                                                                                  "eIdentificacion": {
+                                                                                    "type": "string",
+                                                                                    "pattern": "^\\d*$",
+                                                                                    "example": "123456789"
+                                                                                  },
                                                                                   "createdAt": {
                                                                                     "type": "string",
                                                                                     "format": "date-time"
@@ -38342,6 +39713,44 @@
                                                                                         }
                                                                                       }
                                                                                     }
+                                                                                  },
+                                                                                  "eApellido": {
+                                                                                    "type": "string"
+                                                                                  },
+                                                                                  "eFechaNacimiento": {
+                                                                                    "type": "string",
+                                                                                    "format": "date"
+                                                                                  },
+                                                                                  "eDireccion": {
+                                                                                    "type": "string"
+                                                                                  },
+                                                                                  "eTipodocumento": {
+                                                                                    "type": "string",
+                                                                                    "enum": [
+                                                                                      "Cedula de Ciudadania",
+                                                                                      "Tarjeta de Identidad",
+                                                                                      "Tarjeta Extranjera"
+                                                                                    ]
+                                                                                  },
+                                                                                  "eGenero": {
+                                                                                    "type": "string",
+                                                                                    "enum": [
+                                                                                      "Masculino",
+                                                                                      "Femenino",
+                                                                                      "NB"
+                                                                                    ]
+                                                                                  },
+                                                                                  "eEstadoCivil": {
+                                                                                    "type": "string",
+                                                                                    "enum": [
+                                                                                      "Soltero(a)",
+                                                                                      "Casado(a)"
+                                                                                    ]
+                                                                                  },
+                                                                                  "eIdentificacion": {
+                                                                                    "type": "string",
+                                                                                    "pattern": "^\\d*$",
+                                                                                    "example": "123456789"
                                                                                   },
                                                                                   "createdAt": {
                                                                                     "type": "string",
